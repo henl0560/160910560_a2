@@ -154,12 +154,16 @@ li a:hover {
 }
 * {
   box-sizing: border-box;
+  border-color: black;
+
+  border-width: 2px;
 }
 
 .column {
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 10px;
+  margin-left: 3%;
   background-color: #5b2c34;
   border-radius: 15px;
   border-color: black;
@@ -185,6 +189,11 @@ li a:hover {
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.img3 {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
 }
 body {
   background-color: #574548;
